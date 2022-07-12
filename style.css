@@ -7,8 +7,29 @@ body {
     display: flex;
     justify-content: center;
 }
+instagram-wrapper {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
 
-div img {
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
 
-	border: 1px solid black;
+.instagram-phone img {
+    height: 50rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
 }
